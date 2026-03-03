@@ -13,7 +13,7 @@ namespace ReactWebApplication
 
     public static class GenFun
     {
-        public static string text { get; set; }
+        public static string text2 { get; set; }
         public static decimal DecVal(object value)
         {
             if (value == null)
