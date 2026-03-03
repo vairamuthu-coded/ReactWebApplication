@@ -1,13 +1,4 @@
 ﻿
-using ReactWebApplication.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
@@ -15,8 +6,6 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
 
 
 namespace ReactWebApplication
@@ -24,6 +13,7 @@ namespace ReactWebApplication
 
     public static class GenFun
     {
+        public static string text { get; set; }
         public static decimal DecVal(object value)
         {
             if (value == null)
